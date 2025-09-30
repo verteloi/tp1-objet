@@ -86,13 +86,13 @@ public class Employe {
     }
 
     public int joursVacances() {
-        if (numero.charAt(0) == 1) {
+        if (numero.charAt(0) == '1') {
             return 5 + anciennete;
-        } else if (numero.charAt(0) == 2){
+        } else if (numero.charAt(0) == '2'){
             return 10 + anciennete;
-        } else if (numero.charAt(0) == 3){
+        } else if (numero.charAt(0) == '3'){
             return 15 + anciennete;
-        } else if (numero.charAt(0) == 4){
+        } else if (numero.charAt(0) == '4'){
             return 20 + anciennete;
         } else {
             return 0;
